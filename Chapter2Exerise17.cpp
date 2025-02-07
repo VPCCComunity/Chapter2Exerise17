@@ -3,23 +3,22 @@ File Name:Chapter2Exercise17.cpp
 Developer: Mark Goldstein
 Date:Feb 2025;
 Requirements;
-Energy Drink Consumption  A soft drink company 
-recently surveyed 16,500 of its customers and found 
-that approximately 15 percent of those surveyed 
-purchase one or more energy drinks per week. Of those 
-customers who purchase energy drinks, approximately 58 
-percent of them prefer citrus-flavored energy drinks. 
-Write a program that displays the following: 
-• The approximate number of customers in the survey who 
-purchase one or more energy drinks per week.• The approximate 
-number of customers 
-in the survey who prefer citrus-flavored energy drinks.
+Stock Commission  Kathryn bought 750 shares of stock at a 
+price of $35.00 per share. She must pay her stockbroker a 
+2 percent commission for the transaction. 
+Write a program that calculates and displays the following:  
+• The amount paid for the stock alone (without the commission).• 
+The amount of the commission.
+• The total amount paid (for the stock plus the commission).
 */
 #include <iostream>
 #include <iomanip>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int stocks;
+    double shareCost;
+    double commissionPercent;
+
 }
 
