@@ -13,12 +13,22 @@ The amount of the commission.
 */
 #include <iostream>
 #include <iomanip>
+using namespace std;
 
 int main()
 {
-    int stocks;
-    double shareCost;
-    double commissionPercent;
+    int stocks=750;
+    double shareCost=35.00;
+    double commissionPercent=.02;
+    double purchaseCost = stocks * shareCost;
+    double commission = commissionPercent * purchaseCost;
+    double totalCost = purchaseCost + commission;
+    cout << "The purchase cost of the stocks is :$" << purchaseCost << endl;
+    cout << "The commision cost of the purchase is :$" << commission << endl;
+    cout << "The total cost of the purchase is :$" << totalCost << endl;
+
+
+
 
 }
 
