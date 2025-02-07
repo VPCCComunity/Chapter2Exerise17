@@ -31,9 +31,9 @@ int main()
     double purchaseCost = shares * shareCost;
     double commission = commissionPercent * purchaseCost;
     double totalCost = purchaseCost + commission;
-    cout << "The purchase cost of the stocks is :$" << purchaseCost << endl;
-    cout << "The commission cost of the purchase is :$" << commission << endl;
-    cout << "The total cost of the purchase is :$" << totalCost << endl;
+    cout << "purchase cost  :$"<<setw(10) <<fixed<<setprecision(2)<< purchaseCost ;
+    cout << "The commission cost :$" << setw(10) << fixed << setprecision(2) << commission;
+    cout << "The total cost :$" << setw(10) <<fixed<< setprecision(2) << totalCost << endl;
 
 
 
