@@ -17,14 +17,22 @@ using namespace std;
 
 int main()
 {
-    int stocks=750;
-    double shareCost=35.00;
-    double commissionPercent=.02;
-    double purchaseCost = stocks * shareCost;
+    int shares;
+    double shareCost;
+    double commissionPercent;
+    cout << "How many shares did you buy?";
+    cin >> shares;
+    cout << "How much did each share cost?";
+    cin >> shareCost;
+    cout << "How much was the commission percent?";
+    cin >> commissionPercent;
+
+
+    double purchaseCost = shares * shareCost;
     double commission = commissionPercent * purchaseCost;
     double totalCost = purchaseCost + commission;
     cout << "The purchase cost of the stocks is :$" << purchaseCost << endl;
-    cout << "The commision cost of the purchase is :$" << commission << endl;
+    cout << "The commission cost of the purchase is :$" << commission << endl;
     cout << "The total cost of the purchase is :$" << totalCost << endl;
 
 
